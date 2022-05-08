@@ -14,7 +14,7 @@ DBUser='a4lwordpress'
 DBPassword='REPLACEME'
 DBRootPassword='REPLACEME'
 
-# STEP 2 - Install system software - including Web and DB
+# STEP 2 - Install system software - including Web and DB and PHP extensions to configure DB with wp-config.php
 sudo yum install -y mariadb-server httpd wget
 sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 
